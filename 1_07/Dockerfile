@@ -7,4 +7,4 @@ RUN apt-get update && apt-get install -y curl
 COPY script.sh .
 
 # When running Docker run the command will be ./hello.sh
-ENTRYPOINT ["./script.sh"]
+CMD ["./script.sh"]
