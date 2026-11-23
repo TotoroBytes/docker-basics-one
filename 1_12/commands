@@ -1,0 +1,2 @@
+docker build -t react-example .
+docker run -p 5001:5001 react-example
